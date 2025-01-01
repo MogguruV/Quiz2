@@ -45,8 +45,8 @@ public class Main {
                     System.out.println("Pilihan tidak valid, pilih yang benar Kapten");
             }
 
-            // Menunggu pengguna menekan Enter sebelum melanjutkan
-            if (pilihan != 5) { // Tidak menunggu saat keluar dari sistem
+            
+            if (pilihan != 5) { 
                 System.out.println("\nTekan Enter untuk melanjutkan...");
                 scanner.nextLine();
             }
